@@ -1,0 +1,4 @@
+Default weather location
+chance of rain
+high/low temperature
+

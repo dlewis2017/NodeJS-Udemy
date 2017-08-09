@@ -1,0 +1,13 @@
+Command line arugment program that let's you write, save, read, delete, and list notes.
+
+
+Usage:
+
+npm init to install npm json package file with saved dependencies
+node app.js add --title="My new note" --body="This is my new note"
+see help option for full useage
+node app.js --help
+
+
+
+
