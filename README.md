@@ -1,4 +1,4 @@
-<b>Projects from NodeJS Udemy course</b>
+<h1><b>Projects from NodeJS Udemy course</b></h1>
 
 Beginners guide to nodeJS that goes through the basics of node, web servers, databases, security/auth, and real time apps. 
 
@@ -8,7 +8,7 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 -------
 
-<b>Notes-Node - Command line program that let's you write, save, read, delete, and list notes</b>
+<h3>Notes-Node - Command line program that let's you write, save, read, delete, and list notes</h3>
 
 <i>Usasge:</i>
 
@@ -18,7 +18,7 @@ Uses several 3rd party libraries and servers. View link for full description.
 	
 -------
 
-<b>Weather-App - Command line program that allows you to check with with given address using forecast.io and google</b>
+<h3>Weather-App - Command line program that allows you to check with with given address using forecast.io and google</h3>
 
 <i>Usage:</i>
 	
@@ -32,4 +32,4 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 -------
 
-<b>node-web-server - pending</b>
+<h3>node-web-server - pending</h3>
