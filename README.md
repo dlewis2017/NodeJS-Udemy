@@ -1,7 +1,6 @@
-<h1><b>Projects from NodeJS Udemy course</b></h1>
+<header><h1><b>Projects from NodeJS Udemy course</b></h1></header>
 
-Beginners guide to nodeJS that goes through the basics of node, web servers, databases, security/auth, and real time apps. 
-
+Beginners guide to nodeJS that goes through the basics of node, web servers, databases, security/auth, and real time apps.
 Uses several 3rd party libraries and servers. View link for full description.
 
 <b>Link:</b> <a>https://bah.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/overview</a>
