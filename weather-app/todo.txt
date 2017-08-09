@@ -1,3 +1,5 @@
+Ideas given by course instructor to expand upon app:
+
 Default weather location
 chance of rain
 high/low temperature
