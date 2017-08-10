@@ -31,13 +31,22 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 -------
 
-<h3>Node-Web-Server - simple app with home, about, projects, and maintenance page using heroku server.</h3>
+<h3>Node-Web-Server - simple express app with home, about, projects, and maintenance page using heroku server.</h3>
 <i>Usage:</i>
 	
-	npm app.js: checks whether to log onto local host or heroku server
+	npm start: checks whether to log onto local host or heroku server
 
 <i>Notes:</i>
 
 	Must use personal github as well as heroku accounts, off of BAH network to work.
 
 ------- 
+
+<h3>Node-Tests - Practice with test fuctions for  nodeJS (synchronous/asynchronus) using assertion library (Expect) and  Mocha framework as well as superexpress and spies for testing express applications.</h3>
+<i>Usage:</i>
+
+	npm run test-watch: run script set in json packge file to run tests
+	npm test: "^^^"
+
+-------
+
