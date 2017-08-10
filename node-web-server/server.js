@@ -42,15 +42,22 @@ hbs.registerHelper('screamIt', (text) =>{
 app.get('/',(request, response) => {
   //render response with give template to pass to handlers syntax html (hbs page)
   response.render('home.hbs',{
-    pageTitle: 'Home Page',
+    pageTitle: 'Home',
     welcomeMessage: 'Welcome to the home page',
+  });
+});
+
+//http router to about
+app.get('/projects',(request, response) => {
+  response.render('projects.hbs',{
+    pageTitle: 'Projects',
   });
 });
 
 //http router to about
 app.get('/about',(request, response) => {
   response.render('about.hbs',{
-    pageTitle: 'About Page',
+    pageTitle: 'About',
   });
 });
 
