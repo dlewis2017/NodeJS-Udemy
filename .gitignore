@@ -3,3 +3,4 @@ notes-node/node_modules
 notes-node/notes-data.json
 node-web-server/node_modules
 node-web-server/server.log
+node-test/node_modules
