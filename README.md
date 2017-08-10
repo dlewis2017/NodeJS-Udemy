@@ -23,4 +23,8 @@ Notes:
 
 ---
 
-node-web-server - pending
+node-web-server - simple app with home, about, projects, and maintenance page using heroku server.
+Usage:
+	npm app.js: checks whether to log onto local host or heroku server
+
+--- 
