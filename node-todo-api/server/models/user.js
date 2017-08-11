@@ -10,14 +10,14 @@ var User = mongoose.model('User', {
   }
 });
 
-var user = new User({
-  email: 'dlewis12@exmaple.com      '
-});
-
-user.save().then((doc) => {
-  console.log('');
-}, (error) => {
-  console.log(error);
-});
+// var user = new User({
+//   email: 'dlewis12@exmaple.com      '
+// });
+//
+// user.save().then((doc) => {
+//   console.log('');
+// }, (error) => {
+//   console.log(error);
+// });
 
 module.exports = {User};

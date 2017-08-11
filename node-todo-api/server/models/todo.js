@@ -18,18 +18,18 @@ var Todo = mongoose.model('Todo', {
   }
 });
 
-//Challenge - new todo and save
-var sendLetterTodo = new Todo({
-  text: 'Send letter from postoffice',
-  completed: true,
-  completedAt: 5
-});
-
-sendLetterTodo.save().then((doc) => {
-  console.log('Saved todo ', doc);
-}, (error) => {
-  console.log('Unable to save todo item')
-});
+// //Challenge - new todo and save
+// var sendLetterTodo = new Todo({
+//   text: 'Send letter from postoffice',
+//   completed: true,
+//   completedAt: 5
+// });
+//
+// sendLetterTodo.save().then((doc) => {
+//   console.log('Saved todo ', doc);
+// }, (error) => {
+//   console.log('Unable to save todo item')
+// });
 
 
 module.exports = {Todo};
