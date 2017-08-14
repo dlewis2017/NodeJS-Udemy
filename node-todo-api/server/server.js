@@ -1,16 +1,17 @@
 //requires
 var express = require('express');
 var bodyParser = require('body-parser');
+var {ObjectID} = require('mongodb');
 //custom requires
 var {mongoose} = require('./db/mongoose.js');
 var {Todo} = require('./models/todo');
-var {Userr} = require('./models/user');
+var {User} = require('./models/user');
 
 var app = express();
 
 app.use(bodyParser.json());
 
-//post new todo
+/* post new todo */
 app.post('/todos', (req,res) => {
   var todo = new Todo({
     text: req.body.text
@@ -23,7 +24,7 @@ app.post('/todos', (req,res) => {
   });
 });
 
-//get all todos
+/* get all todos */
 app.get('/todos', (req, res) => {
   Todo.find().then((todos) => {
     //use object instead of array to potentially allow other items to be sent
@@ -33,8 +34,25 @@ app.get('/todos', (req, res) => {
   });
 });
 
+/* Get specific id */
+app.get('/todos/:id', (req, res) => {
+  var id = req.params.id;
+  //validate id
+  if (!ObjectID.isValid(id)) {
+    res.status(404).send({});
+  }
+  Todo.findById(id).then((todo) => {
+    //might not return todo so check if it exists
+    if(!todo){
+      return res.status(404).send({});
+    }
+    res.send({todo});
+  }).catch((error) => {
+      res.status(400).send();
+  });
+});
 
-//port
+/* port */
 app.listen(3000, () => {
   console.log('Started on port 3000');
 });
