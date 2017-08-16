@@ -8,6 +8,7 @@ const {ObjectID} = require('mongodb');
 var {mongoose} = require('./db/mongoose.js');
 var {Todo} = require('./models/todo');
 var {User} = require('./models/user');
+var {authenticate} = require('./middleware/authenticate');
 
 var app = express();
 //local host or Heroku
@@ -102,7 +103,50 @@ app.patch('/todos/:id', (req, res) => {
   }).catch((error) => {
     res.status(400).send();
   });
+});
 
+/* create new user */
+app.post('/users', (req, res) => {
+  //take object and pull off piece of body
+  var body = _.pick(req.body, ['email','password']);
+  var user = new User(body);
+
+  user.save().then(() => {
+    return user.generateAuthToken();
+  }).then((token) => {
+    res.header('x-auth', token).send(user);
+  }).catch((error) => {
+    res.status(400).send(error);
+  });
+});
+
+/* get current user */
+app.get('/users/me', authenticate, (req,res) => {
+  res.send(req.user);
+});
+
+/* Login */
+app.post('/users/login', (req,res) => {
+  var body = _.pick(req.body, ['email','password']);
+  var user = new User(body);
+
+  //find user to check if valid
+  User.findByCredentials(body.email,body.password).then((user) => {
+    return user.generateAuthToken().then((token) => {
+      res.header('x-auth', token).send(user);
+    });
+  }).catch((error) => {
+    res.status(400).send();
+  });
+});
+
+/* Log Out */
+app.delete('/users/me/token', authenticate, (req,res) => {
+  req.user.removeToken(req.token).then(() => {
+    res.status(200).send();
+  }, () => {
+    res.status(400).send();
+  });
 });
 
 /* port */
