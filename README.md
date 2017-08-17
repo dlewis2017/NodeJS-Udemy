@@ -63,13 +63,16 @@ Uses several 3rd party libraries and servers. View link for full description.
 	This app must have it's own github repository to work properly with Heroku.
 
 <i>Usage:</i>
+
 	npm install: install json module with dependencies
 	npm start: starts the program. Opens port either locally or through Heroku depending on where the database is set up.
  
 -------
 
 <h3></h3>
+
 <i>Notes:</i>
+
 <i>Usage:</i>
 
 -------
