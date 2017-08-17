@@ -17,7 +17,7 @@ Uses several 3rd party libraries and servers. View link for full description.
 	
 -------
 
-<h3>Weather-App - Command line program that allows you to check with with given address using forecast.io and google</h3>
+<h3><b>Weather-App</b> - Command line program that allows you to check with with given address using forecast.io and google</h3>
 
 <i>Notes:</i>
 	
@@ -32,7 +32,7 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 -------
 
-<h3>Node-Web-Server - simple express app with home, about, projects, and maintenance page using heroku server.</h3>
+<h3><b>Node-Web-Server</b> - simple express app with home, about, projects, and maintenance page using heroku server.</h3>
 
 <i>Notes:</i>
 
@@ -46,7 +46,7 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 ------- 
 
-<h3>Node-Tests - Practice with test fuctions for  nodeJS (synchronous/asynchronus) using assertion library (Expect) and  Mocha framework as well as superexpress and spies for testing express applications.</h3>
+<h3><b>Node-Tests</b> - Practice with test fuctions for  nodeJS (synchronous/asynchronus) using assertion library (Expect) and  Mocha framework as well as superexpress and spies for testing express applications.</h3>
 
 <i>Usage:</i>
 
@@ -56,7 +56,7 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 -------
 
-<h3>Node-ToDo-API - Create a "todo" application that allows you to add, remove, view, and edit todos from yuor list. User authentication implemented. Topics covered include: setting up the API, creating/testing endpoints, setting up mongoose, mongoDB, and RoboMongo, managing configuration using Postman and Mongo, and deploying the application to Heroku </h3>
+<h3><b>Node-ToDo-API</b> - Create a "todo" application that allows you to add, remove, view, and edit todos from yuor list. User authentication implemented. Topics covered include: setting up the API, creating/testing endpoints, setting up mongoose, mongoDB, and RoboMongo, managing configuration using Postman and Mongo, and deploying the application to Heroku </h3>
 
 <i>Notes:</i>
 
