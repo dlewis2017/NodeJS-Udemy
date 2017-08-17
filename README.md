@@ -56,13 +56,20 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 -------
 
-<h3>Node-ToDo-API - MongoDB </h3>
+<h3>Node-ToDo-API - Create a "todo" application that allows you to add, remove, view, and edit todos from yuor list. User authentication implemented. Topics covered include: setting up the API, creating/testing endpoints, setting up mongoose, mongoDB, and RoboMongo, managing configuration using Postman and Mongo, and deploying the application to Heroku </h3>
 
 <i>Notes:</i>
 
-	This app must have it's own github repository to work properly
+	This app must have it's own github repository to work properly with Heroku.
 
 <i>Usage:</i>
+	npm install: install json module with dependencies
+	npm start: starts the program. Opens port either locally or through Heroku depending on where the database is set up.
+ 
+-------
 
+<h3></h3>
+<i>Notes:</i>
+<i>Usage:</i>
 
 -------
