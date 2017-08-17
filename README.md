@@ -7,7 +7,7 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 -------
 
-<h3>Notes-Node - Command line program that let's you write, save, read, delete, and list notes</h3>
+<h3><b>Notes-Node</b> - Command line program that let's you write, save, read, delete, and list notes</h3>
 
 <i>Usasge:</i>
 
