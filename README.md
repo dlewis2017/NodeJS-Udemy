@@ -3,7 +3,7 @@
 Beginners guide to nodeJS. Learned the basics of node, web servers, databases, security/auth, and real time apps.
 Uses several 3rd party libraries and servers. View link for full description.
 
-<b>Link:</b> <a>https://bah.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/overview</a>
+<b>Link:</b> <a>https://udemy.com/the-complete-nodejs-developer-course-2/learn/v4/overview</a>
 
 -------
 
@@ -19,10 +19,6 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 <h3><b>Weather-App</b> - Command line program that allows you to check with with given address using forecast.io and google</h3>
 
-<i>Notes:</i>
-	
-	Must be outside BAH firewall (use guestwifi)
-
 
 <i>Usage:</i>
 	
@@ -34,9 +30,6 @@ Uses several 3rd party libraries and servers. View link for full description.
 
 <h3><b>Node-Web-Server</b> - simple express app with home, about, projects, and maintenance page using heroku server.</h3>
 
-<i>Notes:</i>
-
-	Must use personal github as well as heroku accounts, off of BAH network to work.
 
 <i>Usage:</i>
 	
